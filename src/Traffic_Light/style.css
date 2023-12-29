@@ -1,0 +1,63 @@
+body {
+  background-color: #c3efff;
+}
+.main-bg-container {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.traffic-light-container {
+  background-color: rgb(0, 0, 0);
+  width: 133px;
+  margin-right: 16px;
+  padding: 16px;
+}
+
+.respective-sign {
+  font-size: 100px;
+}
+
+.count-element {
+  font-size: 100px;
+}
+
+.counter-container {
+  width: 222px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  color: darkorange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid darkorange;
+}
+.traffic-light {
+  width: 100px;
+  height: 100px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin: 16px 0px;
+}
+.red {
+  background-color: #cf0000;
+  -webkit-box-shadow: 0px 0px 60px 1px rgba(207, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 60px 1px rgba(207, 0, 0, 1);
+  box-shadow: 0px 0px 60px 1px rgba(207, 0, 0, 1);
+}
+
+.yellow {
+  background-color: #ffff00;
+  -webkit-box-shadow: 0px 0px 60px 1px rgba(255, 255, 0, 1);
+  -moz-box-shadow: 0px 0px 60px 1px rgba(255, 255, 0, 1);
+  box-shadow: 0px 0px 60px 1px rgba(255, 255, 0, 1);
+}
+
+.green {
+  background-color: #00b500;
+  -webkit-box-shadow: 0px 0px 60px 1px rgba(0, 181, 0, 1);
+  -moz-box-shadow: 0px 0px 60px 1px rgba(0, 181, 0, 1);
+  box-shadow: 0px 0px 60px 1px rgba(0, 181, 0, 1);
+}
