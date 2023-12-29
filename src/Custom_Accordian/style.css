@@ -1,0 +1,29 @@
+.singlequest {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+
+  cursor: pointer;
+}
+
+.quest_box {
+  display: flex;
+  justify-content: space-between;
+}
+.quest_box span {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+  text-align: left;
+}
+.ans_box p {
+  margin: 10px 0px 10px 0px;
+  text-align: left;
+}
+.open {
+  display: block !important;
+}
+.close {
+  display: none;
+}

@@ -4,6 +4,7 @@ import Header from "./Header";
 import ReactIndex from "./ReactIndex";
 import TrafficLight from "./Traffic_Light/TrafficLight.js";
 import Windowconfirm from "./Window_confirm/WindowConfirm.js";
+import CustomAccordian from "./Custom_Accordian/CustomAccordian";
 
 function App() {
   return (
@@ -32,6 +33,10 @@ const App_router = createBrowserRouter([
       {
         path: "windowconfirm",
         element: <Windowconfirm />,
+      },
+      {
+        path: "customaccordian",
+        element: <CustomAccordian />,
       },
     ],
   },

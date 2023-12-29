@@ -11,6 +11,8 @@ export default function ReactIndex() {
               <Link to="/trafficlight">1. Traffic Light</Link>
               <br></br>
               <Link to="/windowconfirm">2. Window Confirm</Link>
+              <br></br>
+              <Link to="/customaccordian">3. Custom Accordian</Link>
             </div>
             <div className="col-lg-6 text-end"> </div>
           </div>
