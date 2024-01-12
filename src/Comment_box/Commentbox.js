@@ -11,7 +11,7 @@ function Commentbox() {
   }
 
   function handleedit(id) {
-    setComments(comments.map((item) => item.id === id ? item.commenttext == ""));
+    // setComments(comments.map((item) => item.id === id ? item.commenttext == ""));
   }
   return (
     <div className="App text-center justify-content-center">

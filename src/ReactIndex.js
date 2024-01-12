@@ -17,6 +17,8 @@ export default function ReactIndex() {
               <Link to="/imageslider">4. Image Slideshow/Carousel</Link>
               <br></br>
               <Link to="/commentbox">5. Comment Box</Link>
+              <br></br>
+              <Link to="/todolist">5. Todo List </Link>
             </div>
             <div className="col-lg-6 text-end"> </div>
           </div>

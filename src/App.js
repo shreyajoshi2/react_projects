@@ -6,7 +6,8 @@ import TrafficLight from "./Traffic_Light/TrafficLight.js";
 import Windowconfirm from "./Window_confirm/WindowConfirm.js";
 import CustomAccordian from "./Custom_Accordian/CustomAccordian";
 import ImageSlider from "./Image_Slider/ImageSlider";
-import Commentbox from "./Comment_box/Commentbox";
+import Commentbox from "./Commentbox_re/Commentbox";
+import TodoList from "./Todo_List/Todolist";
 function App() {
   return (
     <div className="App">
@@ -46,6 +47,10 @@ const App_router = createBrowserRouter([
       {
         path: "commentbox",
         element: <Commentbox />,
+      },
+      {
+        path: "todolist",
+        element: <TodoList />,
       },
     ],
   },

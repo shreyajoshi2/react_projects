@@ -1,0 +1,18 @@
+.commentbox {
+  margin: 10px 10px;
+}
+.commentbox p {
+  margin: 0px;
+}
+.textarea {
+  width: 100%;
+  height: 100px;
+}
+.singlecomment {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+}
+.replybox {
+  border-left: 1px solid #a4a4a4;
+}

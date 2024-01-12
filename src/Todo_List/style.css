@@ -1,0 +1,20 @@
+.todomain {
+  background-color: bisque;
+  padding: 60px;
+  border-radius: 10px;
+}
+.singletodolist {
+  background-color: #ffffff51;
+  padding: 30px;
+  border-radius: 10px;
+}
+.singletask {
+  background-color: #ffffff;
+  padding: 20px 5px;
+  border-radius: 10px;
+}
+.singletask p {
+  font-size: 14px;
+  color: #656363;
+  margin: 0px;
+}
