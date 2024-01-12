@@ -1,0 +1,20 @@
+.thumbnails img {
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
+  margin: 0px 5px;
+  filter: grayscale(1);
+  cursor: pointer;
+}
+.thumbnails img.active {
+  filter: none;
+}
+.thumbnails {
+  margin-top: 20px;
+}
+.sliderimg {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  cursor: pointer;
+}

@@ -13,6 +13,10 @@ export default function ReactIndex() {
               <Link to="/windowconfirm">2. Window Confirm</Link>
               <br></br>
               <Link to="/customaccordian">3. Custom Accordian</Link>
+              <br></br>
+              <Link to="/imageslider">4. Image Slideshow/Carousel</Link>
+              <br></br>
+              <Link to="/commentbox">5. Comment Box</Link>
             </div>
             <div className="col-lg-6 text-end"> </div>
           </div>
