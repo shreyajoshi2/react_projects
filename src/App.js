@@ -8,6 +8,7 @@ import CustomAccordian from "./Custom_Accordian/CustomAccordian";
 import ImageSlider from "./Image_Slider/ImageSlider";
 import Commentbox from "./Commentbox_re/Commentbox";
 import TodoList from "./Todo_List/Todolist";
+import FoodOrdering from "./Food_Ordering/FoodOrdering";
 function App() {
   return (
     <div className="App">
@@ -51,6 +52,10 @@ const App_router = createBrowserRouter([
       {
         path: "todolist",
         element: <TodoList />,
+      },
+      {
+        path: "foodordering",
+        element: <FoodOrdering />,
       },
     ],
   },

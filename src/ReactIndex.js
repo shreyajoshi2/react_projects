@@ -18,7 +18,9 @@ export default function ReactIndex() {
               <br></br>
               <Link to="/commentbox">5. Comment Box</Link>
               <br></br>
-              <Link to="/todolist">5. Todo List </Link>
+              <Link to="/todolist">6. Todo List </Link>
+              <br></br>
+              <Link to="/foodordering">7. Food Ordering </Link>
             </div>
             <div className="col-lg-6 text-end"> </div>
           </div>
